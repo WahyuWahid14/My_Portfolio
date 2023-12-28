@@ -180,7 +180,7 @@ a {
     color: rgba(255, 255, 255, 0.5); }
 
 .site-section {
-  margin: 250px 0; }
+  margin: 165px 0; }
 
 .section-heading {
   margin-bottom: 30px;
@@ -204,7 +204,7 @@ a {
   line-height: 1.5; }
 
 .site-service-item {
-  background: #333;
+  
   padding: 30px; }
   .site-service-item .icon {
     display: block;
@@ -215,7 +215,7 @@ a {
     height: 100px;
     position: relative;
     border-radius: 50%;
-    margin: 0 auto 30px auto; }
+    margin: 0 auto 25px auto; }
     .site-service-item .icon span {
       font-size: 40px;
       color: #080b0e;
@@ -330,7 +330,7 @@ a {
   margin-bottom: 50px;
   display: block; }
   .single-portfolio .relative {
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .single-portfolio .p-inner {
     text-align: center; }
     .single-portfolio .p-inner h4 {
@@ -569,18 +569,18 @@ a {
     display: block; }
 
 .site-footer {
-  padding: 3em 0; }
+  padding: 5em 0; }
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer .social-item {
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     background: #333;
     position: relative;
     border-radius: 50%;
     font-size: 22px;
-    margin: 0 10px; }
+    margin: 0 50px; }
     .site-footer .social-item > span {
       position: absolute;
       top: 50%;
