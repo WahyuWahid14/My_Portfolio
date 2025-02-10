@@ -13,8 +13,9 @@
   <link rel="stylesheet" href="css/profiledesain.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700" rel="stylesheet" />
-  <!-- Pastikan kit ikon FontAwesome sudah dimuat -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
   <style>
     .profile-img {
@@ -28,15 +29,17 @@
   </style>
   <style>
     .justify-text {
-      text-align: left;
+      text-align: justify;
     }
+
+    /* *{border: 2px red solid;} */
   </style>
 </head>
 
-<body data-spy="scroll" dat a-target="#pb-navbar" data-offset="200" style="background-color: #f0f0f0;">
+<body>
   <center>
-    <div class="bg-light px-5 shadow col-12 col-md-7">
-      <div class="container pt-2">
+    <div class="container">
+      <div class="bg-light px-5 shadow col-12 col-md-7">
         <div class="row justify-content-center">
           <div class="col-md-12">
             <div class="profile-card d-flex" style="display: flex; align-items: center">
@@ -45,64 +48,151 @@
             </div>
           </div>
         </div>
-      </div>
-      <p></p>
-      <div class="row">
-        <div class="section-heading text-center col-md-12">
-          <h2 class="text-dark pb-2 text-centers"><strong>Analisis Superstore Sales </strong>
-          </h2>
-        </div>
-        <div>
-          <p class="text-dark justify-text ">Sebagai seorang Data Analyst, kamu mendapatkan permintaan dari tim
-            manajemen untuk menganalisis performa penjualan produk dalam empat tahun terakhir. Tujuan dari analisis ini
-            adalah untuk memahami produk mana yang paling banyak dipesan, tren pemesanan berdasarkan waktu, serta
-            kontribusi setiap produk terhadap total pendapatan. Data yang kamu miliki berisi informasi pemesanan mulai
-            dari. Row ID Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Customer Name, Segment, Country, City,
-            State, Postal Code, Region, Product ID, Category, Sub-Category, Product Name, Sales.</p>
-          <P class="text-dark justify-text ">Permasalahan:
-            Bagaimana tren Penjualan selama 4 tahun terakhir ini, apakah ada peningkatan penjualan di setiap tahunnya?
-            Selama 4 Tahun terkahir, berapa total pendapatan, Jumlah Pesana, serta Jumlah Penjualan Produk?
-            Apakah terdapat pola pemesanan pada priode tertentu yang dapat dijadikan acuan untuk promosi?</P>
-          <P class="text-dark justify-text ">Tujuan Analisis:
-            Mengidentifikasi apakah ada pertumbuhan penjualan serta pendapatan produk di setiap tahunnya, guna utnuk
-            membantu tim manajemen utuk melihat pertumbuhan penjualan.
-            Memberikan rekomendasi waktu promosi berdasarkan pola pemesanan waktu untuk meningkatkan penjualan.
-            Menentukan kontribusi setiap kategori produk untuk mengetahui preferensi konsumen terhadap jenis kategori
-            barang tertentu.
-          </P>
-          <P class="text-dark justify-text ">Analysis Objective :
-            Mengidentifikasi produk yang sering dipesan untuk memandu promosi.
-            Menganalisis tren waktu pemesanan untuk memahami perilaku pelanggan.
-            Menghitung kontribusi tiap kategori terhadap pendapatan total.
-          </P>
-          <P class="text-dark justify-text ">Data : <a class="text-muted"
-              href="https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting">https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting</a>
-          </P>
+        <p></p>
+        <div class="row">
+          <div class="section-heading text-center col-md-12">
+            <h2 class="text-dark pb-2 text-centers"><strong>ANALISIS SENTIMENT INTENSIF MOBIL LISTRIK INDONESIA</strong>
+            </h2>
+          </div>
+          <div class="container">
+            <p class="text-dark justify-text"><span style="font-weight: 700;"> Tentang Data : </span> Data ini merupakan komentar-komnetar masyarakat terkait pemeberlakuan intensif mobil listrik di Indonesia. Komentar-komentar yang digunakan merupakan komentar yang diambil dari berbagai video yang membahas tentang "Pemeberlakuan Intensif Mobil Listrik" pada platform Youtube. Komentar-komentar tersebut diambil dengan menggunakan API resmi Youtube.</p>
+            <p class="text-dark justify-text "> <span style="font-weight: 700;">Metode Analisis : Indo-Bert</span> Pengklasifikasi Sentimen Basis BERT Indonesia adalah model klasifikasi teks sentimen. Model ini awalnya adalah model IndoBERT Base Model yang telah dilatih sebelumnya menggunakan kumpulan data sentimen Prosa.</p>
+            <p class=" mb-5 text-dark justify-text">Data : <a class="text-muted "
+                style="word-break: break-all; font-weight: bold; font-style: italic;"
+                href="https://www.kaggle.com/datasets/billycemerson/analisis-sentimen-terkait-intensif-mobil-listrik">
+                https://www.kaggle.com/datasets/billycemerson/analisis-sentimen-terkait-intensif-mobil-listrik</a>
+            </p>
 
-          <img class="mt-5 mb-5 img-fluid" src="images/dashboardanalisisuperstore1.jpg" alt="gambar tidak tampil"
-            width="100%" />
-          <img class="mb-5 img-fluid" src="images/dashboardanalisisuperstore2.jpg" alt="gambar tidak tampil"
-            width="100%" />
-          <img class="mb-5 img-fluid" src="images/dashboardanalisisuperstore3.jpg" alt="gambar tidak tampil"
-            width="100%" />
-          <img class="mb-5 img-fluid" src="images/dashboardanalisisuperstore4.jpg" alt="gambar tidak tampil"
-            width="100%" />
-          <img class="mb-5 img-fluid" src="images/dashboardanalisisuperstore5.jpg" alt="gambar tidak tampil"
-            width="100%" />
-        </div>
-      </div>
-      <p></p>
-      <div class="row"></div>
-      <p></p>
-      <!-- 
-        <h2 class="text-dark">Sub Judul</h2>
-        <p class="text-dark">This is a paragraph.</p> -->
+            <p class="text-dark justify-text" style="font-weight: 700; font-size: x-large;">WORLD CLOUD</p>
+            <img class="mt-2 mb-1 img-fluid" src="images/worlcloud_sentiment1.jpg" alt="gambar tidak tampil"
+              width="100%"/>
+              <p class="mb-5 text-dark justify-text"><span style="font-weight: 700;"> <U>Summary :</U></span> Kata "harga" muncul paling sering (446 kali), mengindikasikan perhatian utama
+                masyarakat terhadap biaya atau harga mobil listrik. Hal ini menunjukkan bahwa
+                faktor harga menjadi salah satu kendala atau pertimbangan penting dalam
+                penerimaan mobil listrik.
+                Kata "mahal" (258 kali) memperkuat pandangan bahwa banyak masyarakat
+                merasa harga mobil listrik saat ini masih terlalu tinggi untuk dapat dijangkau oleh
+                sebagian besar konsumen.
+                Kata seperti "beli" (325 kali) dan "mau" (269 kali) menunjukkan minat atau niat
+                masyarakat terhadap mobil listrik. Namun, niat tersebut kemungkinan besar
+                dipengaruhi oleh faktor harga atau subsidi.
+                Kata "subsidi" (288 kali) sering muncul, mengindikasikan bahwa banyak
+                masyarakat memperhatikan atau mendiskusikan peran pemerintah dalam
+                memberikan dukungan finansial untuk mendorong adopsi mobil listrik. Subsidi
+                dianggap sebagai langkah penting untuk meningkatkan daya beli.
+                Kata seperti "kendara" (305 kali) dan "ev" (217 kali) menggambarkan fokus pada
+                teknologi kendaraan listrik (Electric Vehicle) sebagai salah satu solusi mobilitas
+                yang lebih berkelanjutan.
+                Kata "lebih" (237 kali) dan "banyak" (239 kali) menunjukkan preferensi masyarakat
+                untuk membandingkan keuntungan mobil listrik dibandingkan kendaraan
+                konvensional, baik dari segi efisiensi maupun dampaknya terhadap lingkungan.
+                Munculnya kata "rakyat" (201 kali) menyoroti perhatian masyarakat terhadap
+                keadilan dalam penerapan kebijakan intensif mobil listrik. Hal ini menunjukkan
+                adanya kekhawatiran apakah kebijakan ini benar-benar berpihak pada rakyat
+                banyak atau hanya menguntungkan kelompok tertentu.</p>
 
+            <p class="text-dark justify-text" style="font-weight: 700; font-size: x-large;">EMOTION ANALYST</p>
+            <img class="mt-2 mb-1 img-fluid" src="images/review_barchart 2.jpg" alt="gambar tidak tampil"
+              width="100%" />
+              <p class="text-dark justify-text"> <span style="font-weight: 700;"><U>Summary :</U></span> Komentar Positif: Sebanyak 1,029 komentar menunjukkan sentimen positif, yang mencakup apresiasi, dukungan, atau
+                pandangan optimis terhadap kebijakan mobil listrik. Ini menunjukkan sebagian besar masyarakat mendukung kebijakan
+                tersebut, baik dari sisi keberlanjutan lingkungan maupun potensi efisiensi ekonomi.
+                Komentar Netral: Sebanyak 275 komentar bersifat netral, menunjukkan bahwa komentator memberikan opini deskriptif
+                atau tidak memihak. Mereka mungkin sekadar membahas fakta atau memberikan saran tanpa menyatakan dukungan
+                atau ketidaksetujuan.
+                Komentar Negatif: Sebanyak 213 komentar menyatakan sentimen negatif, yang berisi kritik, kekhawatiran, atau
+                ketidakpuasan terhadap kebijakan ini. Kritik yang umum dapat mencakup kekhawatiran tentang infrastruktur
+                pendukung.</p>      
+                
+            <img class="mt-5 mb-5 img-fluid" src="images/positive_sentiment3.jpg" alt="gambar tidak tampil"
+              width="100%" />
+              <p class="text-dark justify-text"> <span style="font-weight: 700;" ><U>Summary :</U></span> Kata "lebih" menjadi yang paling dominan muncul. Hal ini
+                menunjukkan harapan masyarakat agar kebijakan ini dapat
+                membawa dampak yang lebih baik, seperti efisiensi,
+                keberlanjutan lingkungan, atau kemajuan teknologi.
+                Kata "buat" menunjukkan bahwa masyarakat antusias terhadap
+                tindakan atau kebijakan lebih lanjut yang dapat diambil untuk
+                mendukung implementasi mobil listrik.
+                Kata "semua" menegaskan keinginan masyarakat agar kebijakan
+                ini mencakup seluruh lapisan, baik dari sisi masyarakat umum
+                maupun industri.
+                Kata "baik"
+                dan "bagus" menekankan penerimaan positif
+                terhadap kebijakan ini. Hal ini mencerminkan dukungan
+                masyarakat terhadap keberlanjutan mobil listrik sebagai bagian
+                dari transisi menuju energi bersih.
+                Data ini menunjukkan adanya penerimaan yang cukup positif
+                dari masyarakat terhadap kebijakan pemberlakuan intensif mobil
+                listrik. Masyarakat tidak hanya mendukung ide tersebut tetapi
+                juga mengharapkan tindakan nyata untuk memastikan
+                implementasi yang efektif dan adil bagi semua pihak.</p>
+
+
+            <img class="mt-5 mb-1 img-fluid" src="images/neutral_sentiment4.jpg" alt="gambar tidak tampil"
+              width="100%" />
+              <p class="text-dark justify-text"> <span style="font-weight: 700;" ><U>Summary :</U></span> Pola ini menunjukkan fokus diskusi yang beragam,
+                meliputi pengalaman masa lalu (dulu), kepentingan
+                penggunaan (pakai), konteks umum kebijakan (umum),
+                serta elemen spesifik kebijakan atau teknologi (isi dan
+                buat).
+                Tingginya frekuensi kata terkait "umum" dan "isi"
+                mungkin mencerminkan perlunya sosialisasi lebih lanjut
+                oleh pemerintah atau stakeholder untuk memberikan
+                pemahaman yang lebih mendalam terkait kebijakan.
+                Sentimen netral menunjukkan bahwa masyarakat
+                sedang berada dalam tahap awal mengenali dan
+                mengevaluasi kebijakan ini.</p>
+
+            <img class="mt-5 mb-1 img-fluid" src="images/negative_sentiment5.jpg" alt="gambar tidak tampil"
+              width="100%" />
+              <p class="text-dark justify-text"> <span style="font-weight: 700;" ><U>Summary :</U></span> "Mahal" :
+                Kata ini menunjukkan bahwa masyarakat merasa harga mobil listrik masih
+                terlalu tinggi dan menjadi penghalang utama dalam adopsinya. Faktor ekonomi
+                tampaknya menjadi perhatian utama, mengindikasikan perlunya kebijakan
+                subsidi yang lebih signifikan atau insentif lain untuk menurunkan harga.
+                "Lebih" :
+                Kata ini sering muncul dalam konteks perbandingan, seperti perbandingan antara
+                mobil listrik dengan kendaraan konvensional (BBM). Hal ini bisa menunjukkan
+                bahwa masyarakat mungkin menganggap mobil listrik belum lebih baik atau
+                lebih praktis daripada alternatif yang ada.
+                "Buat" :
+                Kata ini kemungkinan terkait dengan komentar tentang produksi atau manfaat
+                mobil listrik. Banyak komentar mungkin mempertanyakan apakah kebijakan ini
+                benar-benar dibuat untuk kepentingan masyarakat luas atau hanya untuk
+                kelompok tertentu.
+                "Jual" :
+                Kata ini menunjukkan adanya kekhawatiran tentang bagaimana pasar mobil
+                listrik akan berkembang. Masyarakat mungkin merasa bahwa mobil listrik akan
+                sulit dijual kembali (resale value rendah) atau pasar untuk mobil listrik masih
+                belum matang.
+                "Bukan" :
+                Kata ini sering digunakan dalam konteks negasi, seperti "bukan solusi," "bukan
+                prioritas," atau "bukan kebutuhan saat ini." Hal ini menunjukkan bahwa sebagian
+                masyarakat merasa kebijakan mobil listrik bukanlah hal yang paling mendesak
+                untuk saat ini, terutama jika dibandingkan dengan masalah lain seperti harga
+                BBM atau infrastruktur.</p>
+
+
+          </div>
+        </div>
+        <p></p>
+        <div class="row"></div>
+        <p></p>
+        <!-- 
+          <h2 class="text-dark">Sub Judul</h2>
+          <p class="text-dark">This is a paragraph.</p> -->
+
+
+      </div>
 
     </div>
   </center>
 
   <script src="js/vendor/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
